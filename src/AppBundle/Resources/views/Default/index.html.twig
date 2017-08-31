@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test of widget id customization</title>
+</head>
+<body>
+
+    {{ form_label(form.surname, 'Surname:') }}
+    {{ form_widget(form.surname, {'attr': {'class': 'my-class'}}) }}
+
+</body>
+</html>
